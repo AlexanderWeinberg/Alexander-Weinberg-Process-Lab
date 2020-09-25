@@ -4,5 +4,6 @@
 #
 # <Author: Alexander Weinberg>
 
-fork: main.c main2.c
-  gcc main.c main2.c -o fork
+  
+process: proccesses.c
+    gcc -o main proccesses.c 
